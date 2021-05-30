@@ -1,0 +1,1 @@
+# Disable_mouse_right_click_in_webpage
