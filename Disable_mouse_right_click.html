@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head >
+    <title></title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        window.oncontextmenu = function () {
+            return false;
+        }
+        $(document).keydown(function (event) {
+            if (event.keyCode == 123) {
+                return false;
+            }
+            else if ((event.ctrlKey && event.shiftKey && event.keyCode == 73) || (event.ctrlKey && event.shiftKey && event.keyCode == 74)) {
+                return false;
+            }
+        });
+    </script>
+</head>
+<body>
+    <form id="form">
+    <div>
+        <input name="" type="text">
+        <br>
+        <a href="http://facebook.com">Asp Snippet</a>
+    </div>
+    </form>
+</body>
+</html>
